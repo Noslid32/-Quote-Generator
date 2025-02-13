@@ -36,7 +36,7 @@ const StoicQuotesGenerator = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(getRandomQuote, 2000);
+    const interval = setInterval(getRandomQuote, 5000);
     return () => clearInterval(interval);
   }, []);
 
